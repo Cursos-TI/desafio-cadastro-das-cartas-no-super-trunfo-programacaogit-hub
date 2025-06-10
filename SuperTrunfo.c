@@ -1,5 +1,5 @@
-/*O código fonte abixo é a estrutura do jogo Super Trunfo de Paises
-que serão representados por seus estado e suas cidades*/
+/* O código fonte abixo é a estrutura do jogo Super Trunfo de Paises
+que serão representados por seus estado e suas cidades */
 
 #include <stdio.h>
 
