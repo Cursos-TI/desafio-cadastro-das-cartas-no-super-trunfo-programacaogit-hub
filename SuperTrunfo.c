@@ -45,7 +45,7 @@ int main(){
 
     printf("Entre com os dados da segunda carta: \n");
     printf("Digite uma letra de A a H para representar o Estado: \n");
-    scanf("%c", &estado2);
+    scanf(" %c", &estado2);
 
     printf("Digite a letra do Estado seguida de um número de 01 a 04 para representar o código a cidade: \n");
     scanf("%s", codigo2);
@@ -66,10 +66,10 @@ int main(){
     scanf("%d", &pontos2);
 
     //Cálculo da densidade populacinal e do pib per capita.
-    densidadep1 = (float) pibpercap1 / area1;
+    densidadep1 = (float) populacao1 / area1;
     pibpercap1 = (float) pib1 / populacao1;
 
-    densidadep2 = (float) pibpercap2 / area2;
+    densidadep2 = (float) populacao2 / area2;
     pibpercap2 = (float) pib2 / populacao2;
 
     //Cálculo do super poder
